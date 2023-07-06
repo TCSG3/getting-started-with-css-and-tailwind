@@ -22,6 +22,9 @@ module.exports = {
 			gridTemplateColumns: {
 				fit: "repeat(auto-fit, minmax(24ch, 1fr))",
 			},
+			height: {
+				banner: "calc(100vh - 48px)",
+			},
 			transitionTimingFunction: {
 				custom: "cubic-bezier(0.22, 1, 0.36, 1)",
 			},
