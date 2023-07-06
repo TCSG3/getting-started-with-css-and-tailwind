@@ -9,6 +9,8 @@ module.exports = {
 			backgroundImage: {
 				"accent-gradient":
 					"linear-gradient(45deg, rgb(124, 58, 237), #da62c4 30%, white 60%)",
+				"random-image": "url('https://picsum.photos/1280/720?random=1')",
+				"random-image-2": "url('https://picsum.photos/1280/720?random=6')",
 			},
 			backgroundSize: {
 				"4x": "400%",
