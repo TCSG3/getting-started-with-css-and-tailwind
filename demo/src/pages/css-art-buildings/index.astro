@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/src/pages/css-art-buildings/styles.css" />
+		<title>Document</title>
+	</head>
+	<body class="m-0 h-screen overflow-hidden">
+		<!-- BACKGROUND BUILDINGS -->
+		<div
+			class="bg-gradient-sky absolute top-0 flex h-full w-full items-end justify-evenly"
+		>
+			<div></div>
+			<div></div>
+			<div class="flex h-[70%] w-[10%] flex-col items-center">
+				<div
+					class="from-building-1 to-window-1 h-[10%] w-[70%] bg-gradient-to-b"
+				>
+				</div>
+				<div
+					class="from-building-1 to-window-1 h-[10%] w-[80%] bg-gradient-to-b"
+				>
+				</div>
+				<div
+					class="from-building-1 to-window-1 h-[10%] w-[90%] bg-gradient-to-b"
+				>
+				</div>
+				<div
+					class="from-building-1 to-window-1 h-[70%] w-full bg-gradient-to-b from-50%"
+				>
+				</div>
+			</div>
+			<div class="h-[50%] w-[10%]">
+				<div
+					class="border-b-building-2 border-x-[5vw] border-b-[5vh] border-x-transparent"
+				>
+				</div>
+				<div class="bg-gradient-background-building-2 h-full w-full"></div>
+			</div>
+			<div class="bg-gradient-background-building-3 h-[55%] w-[10%]"></div>
+			<div></div>
+			<div class="flex h-[58%] w-[11%] flex-col items-center">
+				<div class="bg-building-4 h-[10%] w-[3%]"></div>
+				<div class="bg-building-4 h-[5%] w-[80%]"></div>
+				<div
+					class="bg-building-4 flex h-[85%] w-full items-center justify-evenly"
+				>
+					<div class="bg-window-4 h-[90%] w-[18%]"></div>
+					<div class="bg-window-4 h-[90%] w-[18%]"></div>
+					<div class="bg-window-4 h-[90%] w-[18%]"></div>
+					<div class="bg-window-4 h-[90%] w-[18%]"></div>
+				</div>
+			</div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<!-- FOREGROUND BUILDINGS -->
+		<div class="absolute top-0 flex h-full w-full items-end justify-evenly">
+			<div></div>
+			<div></div>
+			<div class="flex h-[60%] w-[10%] flex-col items-center">
+				<div
+					class="border-b-building-4 border-x-[2vw] border-b-[7vh] border-x-transparent"
+				>
+				</div>
+				<div class="bg-building-4 h-[10%] w-[60%]"></div>
+				<div class="bg-gradient-foreground-building-1 h-[80%] w-full"></div>
+			</div>
+			<div class="h-[40%] w-[10%]">
+				<div
+					class="border-b-building-3 w-full border-x-[1vw] border-b-[10vh] border-x-transparent"
+				>
+				</div>
+				<div
+					class="bg-building-3 flex h-[75%] w-full items-center justify-evenly"
+				>
+					<div class="bg-window-3 h-full w-[22%]"></div>
+					<div class="bg-window-3 h-full w-[22%]"></div>
+					<div class="bg-window-3 h-full w-[22%]"></div>
+				</div>
+			</div>
+			<div></div>
+			<div class="flex h-[35%] w-[10%] flex-col items-center">
+				<div
+					class="bg-building-1 flex h-[15%] w-[80%] items-center justify-evenly"
+				>
+					<div class="bg-window-1 h-[80%] w-[25%]"></div>
+					<div class="bg-window-1 h-[80%] w-[25%]"></div>
+					<div class="bg-window-1 h-[80%] w-[25%]"></div>
+				</div>
+				<div class="bg-building-1 h-[35%] w-full"></div>
+				<div class="bg-building-1 flex h-[15%] w-[80%]"></div>
+				<div class="bg-building-1 h-[35%] w-full"></div>
+			</div>
+			<div class="relative left-[10%] h-[45%] w-[8%]">
+				<div
+					class="border-l-building-1 border-l-[8vw] border-t-[5vh] border-t-transparent"
+				>
+				</div>
+				<div class="bg-building-1 flex h-[89%] w-full flex-wrap">
+					<div class="bg-window-1 m-[10%] h-[10%] w-[30%] rounded-full"></div>
+					<div class="bg-window-1 m-[10%] h-[10%] w-[30%] rounded-full"></div>
+					<div class="bg-window-1 m-[10%] h-[10%] w-[30%] rounded-full"></div>
+					<div class="bg-window-1 m-[10%] h-[10%] w-[30%] rounded-full"></div>
+					<div class="bg-window-1 m-[10%] h-[10%] w-[30%] rounded-full"></div>
+					<div class="bg-window-1 m-[10%] h-[10%] w-[30%] rounded-full"></div>
+				</div>
+			</div>
+			<div
+				class="bg-gradient-foreground-building-5 relative right-[10%] h-[33%] w-[10%]"
+			>
+			</div>
+			<div class="bg-gradient-foreground-building-6 h-[38%] w-[9%]"></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="absolute right-2 top-2">
+			<label for="theme-select">Theme:</label>
+			<select id="theme-select">
+				<option>day</option>
+				<option>neon</option>
+				<option>night</option>
+			</select>
+		</div>
+	</body>
+</html>
+
+<script>
+	const themeSelect =
+		document.querySelector<HTMLSelectElement>("#theme-select")!;
+
+	themeSelect.addEventListener("change", (event) => {
+		document.body.dataset.theme = (event.target as HTMLInputElement).value;
+	});
+</script>

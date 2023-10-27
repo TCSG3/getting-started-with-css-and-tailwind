@@ -9,6 +9,8 @@ module.exports = {
 			backgroundImage: {
 				"accent-gradient":
 					"linear-gradient(45deg, rgb(124, 58, 237), #da62c4 30%, white 60%)",
+				"random-image": "url('https://picsum.photos/1280/720?random=1')",
+				"random-image-2": "url('https://picsum.photos/1280/720?random=6')",
 			},
 			backgroundSize: {
 				"4x": "400%",
@@ -21,6 +23,9 @@ module.exports = {
 			},
 			gridTemplateColumns: {
 				fit: "repeat(auto-fit, minmax(24ch, 1fr))",
+			},
+			height: {
+				banner: "calc(100vh - 48px)",
 			},
 			transitionTimingFunction: {
 				custom: "cubic-bezier(0.22, 1, 0.36, 1)",

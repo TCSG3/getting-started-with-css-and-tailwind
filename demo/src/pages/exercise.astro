@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>Getting Started with CSS and Tailwind</title>
+	</head>
+	<body>
+		<header
+			class="sticky top-0 flex items-center justify-between bg-cyan-600 px-4 py-2"
+		>
+			<div class="text-2xl font-bold text-slate-100">Logo</div>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke-width="1.5"
+				stroke="currentColor"
+				class="h-8 w-8 text-slate-100"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+			</svg>
+		</header>
+		<main>
+			<section
+				class="flex h-banner w-full flex-col items-center justify-center gap-y-4 bg-random-image bg-cover"
+			>
+				<h1 class="text-5xl font-bold text-slate-100 drop-shadow-lg">
+					Getting Started with CSS and Tailwind
+				</h1>
+				<p class="text-3xl font-bold text-slate-100 drop-shadow-lg">
+					Let's learn the fundamentals of CSS styling with the help of Tailwind.
+				</p>
+			</section>
+			<section>
+				<h2
+					class="bg-cyan-600 px-0 py-4 text-center text-3xl font-bold text-slate-100"
+				>
+					Section 1
+				</h2>
+				<article class="flex w-full px-32 py-16">
+					<figure class="flex w-full justify-between">
+						<img
+							src="https://picsum.photos/500?random=2"
+							alt="Remember to put descriptive text in the alt text!"
+							class="rounded-2xl shadow-sm"
+							width="500"
+							height="500"
+						/>
+						<figcaption
+							class="flex max-w-lg flex-col gap-y-3 self-center text-center text-3xl font-medium"
+						>
+							<p>
+								Lorem ipsum dolor sit amet <span class="text-cyan-500">
+									consectetur adipisicing elit.
+								</span> Quaerat voluptate excepturi iste modi explicabo nesciunt
+								repellat.
+							</p>
+							<p>
+								Assumenda maxime magnam. Quod, excepturi. <span
+									class="text-rose-500"
+								>
+									Quia debitis quisquam
+								</span>
+								ex dolorem dolore nisi explicabo temporibus?
+							</p>
+						</figcaption>
+					</figure>
+				</article>
+				<article class="flex w-full px-32 py-16">
+					<figure class="flex w-full flex-row-reverse justify-between">
+						<img
+							src="https://picsum.photos/500?random=3"
+							alt="Randomly generated image with a fixed width"
+							class="rounded-2xl shadow-sm"
+							width="500"
+							height="500"
+						/>
+						<figcaption
+							class="flex max-w-lg flex-col gap-y-3 self-center text-center text-3xl font-medium"
+						>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Voluptates fuga nam quam? Explicabo, sit sint quos error, magni
+								eos dignissimos necessitatibus commodi consequatur nostrum
+								minima tempore saepe? Iste, eaque alias?
+							</p>
+						</figcaption>
+					</figure>
+				</article>
+				<article class="flex w-full px-32 py-16">
+					<figure class="flex w-full justify-between">
+						<img
+							src="https://picsum.photos/500?random=4"
+							alt="Randomly generated image with a fixed width"
+							class="rounded-2xl shadow-sm"
+							width="500"
+							height="500"
+						/>
+						<figcaption
+							class="flex max-w-lg flex-col gap-y-3 self-center text-center text-3xl font-medium"
+						>
+							<ul class="flex list-disc flex-col gap-y-3 text-left">
+								<li>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit
+								</li>
+								<li>
+									Sit perferendis commodi quisquam odio obcaecati iste nobis
+								</li>
+								<li>
+									Dolorem est atque quo aperiam in harum amet dolore cum libero
+								</li>
+								<li>Exercitationem voluptates soluta</li>
+							</ul>
+						</figcaption>
+					</figure>
+				</article>
+				<section>
+					<h2
+						class="bg-cyan-600 px-0 py-4 text-center text-3xl font-bold text-slate-100"
+					>
+						Section 2
+					</h2>
+					<div class="h-banner w-full">
+						<img
+							src="https://picsum.photos/1280/720?random=5"
+							alt="Randomly generated image that takes up the entire width of the screen"
+							class="h-full w-full"
+						/>
+					</div>
+					<article class="flex w-full justify-between px-32 py-16">
+						<div class="flex w-1/2 flex-col gap-y-3 text-3xl font-medium">
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Repellendus aliquam asperiores eaque ipsa sunt amet.
+							</p>
+							<p>
+								Consequuntur molestias omnis blanditiis pariatur vel explicabo
+								vero unde, corporis hic modi, ducimus culpa. Dignissimos?
+							</p>
+						</div>
+						<div class="flex w-1/2 items-center justify-center">
+							<button
+								class="rounded-lg bg-cyan-500 px-6 py-3 text-3xl font-semibold text-slate-100"
+								>Learn More</button
+							>
+						</div>
+					</article>
+					<section
+						class="flex h-banner w-full flex-col items-center justify-center gap-y-4 bg-random-image-2 bg-cover"
+					>
+						<h2 class="text-5xl font-bold text-slate-100 drop-shadow-lg">
+							This is where we tell people to SIGN UP NOW!!!!!
+						</h2>
+						<button
+							class="rounded-lg bg-cyan-500 px-4 py-2 text-xl font-semibold text-slate-100 shadow-md"
+						>
+							Sign Up
+						</button>
+					</section>
+				</section>
+			</section>
+		</main>
+	</body>
+</html>
